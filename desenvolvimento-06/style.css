@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #fffafa;
+}
+
+header {
+    padding: 4vh 5vh 4vh 5vh;
+    background-color: #eead2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #101010;
+}
+
+header a:hover {
+    color: #fffafa;
+    transition: .2s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav li{
+    list-style: none;
+}
+
+#banner figure {
+    width: 100%;
+    height: 86.5vh;
+    overflow: hidden;
+}
+
+#banner img{
+    width: 100%;
+    transform: scale(1.2);
+}
+
+#banner small {   
+    padding: 0 1vh 0 1vh;
+}
+
+a {
+    text-decoration: none;
+    color: #101010;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: #eead2d;
+}
+
+main {
+    margin: 2vh 0 4vh 0;
+    padding: 4vh 15vh;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section p {
+    margin: 4vh 0 4vh 0;
+    text-align: justify;
+}
+
+section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    margin-bottom: 3vh;
+}
+
+section li {
+    width: 350px;
+    height: 250px;
+    padding: 2.5vh 0 2vh 0;
+    margin: 3vh 0 3vh 0;
+    list-style: none;   
+}
+
+section figcaption {
+    text-align: center;
+    padding: 0 1vh 0 1vh;
+    font-size: 0.8rem;
+}
+
+section img {
+    width: 350px;
+    height: 200px;
+}
+
+.mapouter {
+    margin: 4vh 0 4vh 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #eead2d;
+    color: #101010;
+    padding: 3vh 0 2vh 0;
+}
+
+footer p {
+    margin: 0.3vh 0 2vh 0;
+}
+
+footer a {
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+footer svg {
+    border-radius: 50%;
+    transition: .5s;
+}
+
+footer svg:hover {
+    transform: scale(1.1)
+}

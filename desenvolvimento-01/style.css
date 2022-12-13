@@ -1,0 +1,248 @@
+/*Reset do CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+/*Definição de uma cor de fundo para a página */
+body {
+    background-color: #111111;
+}
+
+/*Uso do display flex para separar horizontalmente a imagem de logo e o título do projeto */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: rgba(255, 166, 0, 0.952);
+}
+
+/*Definições sobre tamanho da imagem de logo e deixando-a circular*/
+header img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+/*Definições de cor do texto do título do projeto, 
+transformando as letras para caixa alta e definindo
+o peso da fonte como 800 */
+header h1 {
+    color: #fff;
+    font-size: 1.65rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/*Atribuido uma margem para a tag section de 80 pixels em todos os lados */
+main section {
+    margin: 80px;
+}
+
+
+/*Definições para alinhamento dos itens dentro da div com classe de nome book onde os itens ficam dispostos na vertical, centralizados, com espaçamento entre eles de 30 pixels, com preenchimento da div de 40px encima e embaixo e 0 nas alterais, cor da fonte branca, fundo com um tom de azul e arredondamento das bordas. */
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    padding: 40px 0;
+    text-align: justify;
+    color: #fff;
+    background-color: rgba(82, 47, 252, .3);
+    border-radius: 30px;
+}
+
+.book h1 {
+    font-size: 2.1rem;
+}
+
+.book h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.book img {
+    width: 17rem;
+    border-radius: 20px;
+}
+
+.book ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.book li {
+    margin: 5px;
+    background-color: rgba(255, 166, 0, 0.815);
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    width: 10rem;
+    text-align: center;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.book li:hover {
+    scale: 1.2;
+}
+
+.book p {
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+#quantity-pages {
+    text-align: center;
+}
+
+#movies:hover {
+    font-weight: 700;
+    color: yellow;
+}
+
+#movies {
+    transition: 0.3s;
+}
+
+.book a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.book a:hover {
+    color: black;
+}
+
+/*Definido tamanho do vídeo de forma que fique alinhado com o texto*/
+iframe {
+    border-radius: 20px;
+    width: 37rem;
+    height: 20rem;
+}
+
+/*Definições para o formulário*/
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+    width: 34rem;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 5px;
+}
+
+fieldset p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+fieldset label {
+    padding: 0 0 0 4.5rem;
+    align-self: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+fieldset input {
+    margin: 0.2rem 0 0.5rem 4.5rem;
+    align-self: flex-start;
+    padding: 0 0.8rem 0 0.8rem;
+    width: 24rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+fieldset textarea {
+    margin: 0.2rem 0 3rem 4.5rem;
+    padding: 0.8rem;
+    width: 24rem;
+    align-self: flex-start;
+    border-radius: 5px;
+}
+
+fieldset button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: #fff;
+    border-radius: 5px none;
+    background-color: rgba(255, 166, 0, 0.815);
+    transition: 0.5s;
+}
+
+fieldset button:hover {
+    color: black;
+    scale: 1.2;
+}
+
+/*Definições para a área de comentários*/
+
+#interactive-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#interactive-area h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+#interactive-area p {
+    margin-bottom: 1.2rem;
+}
+
+.user {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0.9rem;
+}
+
+/*Definições para o rodapé*/
+
+footer {
+    background-color: rgba(255, 166, 0, 0.952);
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0.6rem;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+footer div svg {
+    margin-top: -0.3rem;
+    width: 5rem;
+    transition: 0.5s;
+}
+
+footer div svg:hover {
+    scale: 1.2;
+}

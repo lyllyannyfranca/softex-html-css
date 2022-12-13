@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #f8f7f1;
+}
+
+header {
+    padding: 4vh;
+    background-color: #101010;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+main {
+    /*margin -> segue a ordem de sentido horario: cima, direita, baixo, esquerda*/
+    margin: 7vh 0 7vh 0;
+}
+
+section {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    padding: 4vw 7vw 1vw 7vw;
+    text-align: justify;
+    background-color: darkgrey; 
+    border-radius: 6px;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 4.5vh;
+    margin-bottom: 6vh;
+}
+
+section p {
+    margin-bottom: 2.5vh;
+}
+
+.cards {
+    margin-top: 5vh;
+}
+
+.cards h3 {
+    margin: 3.5vh 0 5vh 0;
+    font-weight: 700;
+}
+
+.cards p{
+    text-align: justify;
+}
+
+.cards ul {
+    margin: 7vh 0 7vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.cards li {
+    background-color: #f8f7f1;
+    padding: 3.5vh 3.5vh 8vh 3.5vh;
+    list-style: none;
+    transition: .5s;
+}
+
+.cards li:hover {
+    transform: scale(1.1);
+}
+
+.cards li figcaption {
+    margin-top: 0.5vh;
+    text-align: center;
+}
+
+.cards li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.cards img { 
+    width: 40vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 40vw;
+    padding: 0.5vh 20vh 4vh 20vh;
+    /*background-color: aquamarine;*/
+}
+
+form p {
+    text-align: center;
+}
+
+form label, input, textarea {
+    align-self: flex-start;
+}
+
+form input, textarea {
+    margin: 1.5vh 0 1.5vh 0;
+    padding: 1vh 1.2vh 1vh 1.2vh;
+    width: 20.9vw;
+}
+
+form textarea {
+    height: 15vh;
+}
+
+form button {
+    margin: 4vh 0 1.5vh 0;
+    padding: 2vh 1vh 2vh 1vh;
+    width: 12vw;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #101010;
+    color: #f8f7f1;
+    border: none;
+    transition: .5s;
+}
+
+form button:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    background-color: #101010;
+    color: white;
+    padding: 3vh 0 3vh 0;
+}
+
+footer p {
+    margin: 0.3vh 0 2vh 0;
+}
+
+footer a {
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+footer svg {
+    background-color: white;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+footer svg:hover {
+    transform: scale(1.1)
+}
